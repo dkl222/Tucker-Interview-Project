@@ -8,16 +8,18 @@ html {
   }
   
   @font-face {
-    font-family: gilroy;
-    src: url(Gilroy-Light.otf);
-    src: url(Gilroy-Light.otf) format(otf)
+    font-family: "gilroy";
+    src: url("Gilroy-Light.otf");
+    src: url("Gilroy-Light.otf") format("otf")
   }
   
   /* adjust typography defaults */
   body {
     margin: 1rem;
-    font-family: gilroy;
+    font-family: "gilroy";
     line-height: 1.5;
+    background-color: #586c5d;
+    
   }
   
   /* images and videos max out at full width */
