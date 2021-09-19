@@ -26,3 +26,9 @@ html {
     height: auto;
     max-width: 100%;
   }
+
+  /* Mainly for centering the tables */
+  .center{
+      margin-left: auto;
+      margin-right: auto;
+  }
