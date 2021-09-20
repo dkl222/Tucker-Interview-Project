@@ -23,18 +23,60 @@ body {
   
 }
 
-/* images and videos max out at full width */
-img {
-  margin-left: auto;
-  margin-right: auto;
-  height: 400;
-  max-width: 100%;
+.title{
+  text-align:center;
+  font-size:3em;
+  background-color:#4c6c50;
+  border-radius:40px;
 }
 
-/* Mainly for centering the tables */
-.center{
+
+.tuckerface{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    border-radius:30px;
+}
+
+.info-table{
+  margin-left:auto;
+  margin-right:auto;
+  border-spacing:4px 0.25em;
+}
+
+.basinfo{
+  text-align: right;
+  font-weight: bold;
+  background-color:#66896b;
+  padding:5px;
+  border-radius:8px;
+}
+
+.giveinfo{
+  text-align:left;
+  background-color:#4c6c50;
+  padding:5px;
+  border-radius:8px;
+}
+
+.question-table{
+  border-spacing:5px 0.75em;
+}
+
+.question{
+  vertical-align:top;
+  text-align:right;
+  padding:5px 10px;
+  font-weight: bold;
+  background-color:#66896b;
+  border-radius:15px;
+}
+
+.answer{
+  vertical-align:top;
+  text-align:left;
+  padding:5px 10px;
+  background-color:#4c6c50;
+  border-radius:15px;
 }
