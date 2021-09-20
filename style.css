@@ -1,3 +1,4 @@
+/*
 html {
     box-sizing: border-box;
     font-size: 16px;
@@ -12,8 +13,9 @@ html {
     src: url('fonts/Gilroy-Light.otf');
     src: url('fonts/Gilroy-Light.otf') format('otf')
   }
-  
+ 
   /* adjust typography defaults */
+ /*
   body {
     margin: 1rem;
     font-family: 'gilroy';
@@ -24,6 +26,7 @@ html {
   }
   
   /* images and videos max out at full width */
+  /*
   img,
   video {
     height: auto;
@@ -31,7 +34,9 @@ html {
   }
 
   /* Mainly for centering the tables */
+  /*
   .center{
       margin-left: auto;
       margin-right: auto;
   }
+  */
