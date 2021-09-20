@@ -1,42 +1,39 @@
-/*
 html {
-    box-sizing: border-box;
-    font-size: 16px;
-  }
-  
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  @font-face {
-    font-family: 'gilroy';
-    src: url('fonts/Gilroy-Light.otf');
-    src: url('fonts/Gilroy-Light.otf') format('otf')
-  }
- 
-  /* adjust typography defaults */
- /*
-  body {
-    margin: 1rem;
-    font-family: 'gilroy';
-    line-height: 1.5;
-    color: white;
-    background-color:#587c5d;
-    
-  }
-  
-  /* images and videos max out at full width */
-  /*
-  img,
-  video {
-    height: auto;
-    max-width: 100%;
-  }
+  box-sizing: border-box;
+  font-size: 16px;
+}
 
-  /* Mainly for centering the tables */
-  /*
-  .center{
-      margin-left: auto;
-      margin-right: auto;
-  }
-  */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: 'gilroy';
+  src: url('fonts/Gilroy-Light.otf');
+  src: url('fonts/Gilroy-Light.otf') format('otf')
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: 'gilroy';
+  line-height: 1.5;
+  color: white;
+  background-color:#587c5d;
+  
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+/* Mainly for centering the tables */
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
