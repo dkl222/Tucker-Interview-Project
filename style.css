@@ -24,9 +24,10 @@ body {
 }
 
 /* images and videos max out at full width */
-img,
-video {
-  height: auto;
+img {
+  margin-left: auto;
+  margin-right: auto;
+  height: 400;
   max-width: 100%;
 }
 
