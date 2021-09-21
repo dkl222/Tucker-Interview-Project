@@ -10,7 +10,7 @@ html {
 @font-face {
   font-family: 'gilroy';
   src: url('fonts/Gilroy-Light.otf');
-  src: url('fonts/Gilroy-Light.otf') format('otf')
+  src: url('fonts/Gilroy-Light.otf') format('otf');
 }
 
 /* adjust typography defaults */
