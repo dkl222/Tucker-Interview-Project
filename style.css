@@ -62,11 +62,12 @@ body {
 }
 
 .question-table{
-  border-spacing:5px 0.75em;
-  width:80%;
-  Max-width:600px;
+  display: block;
   margin-left:auto;
   margin-right:auto;
+  width:80%;
+  Max-width:600px;
+  border-spacing:5px 0.75em;
 }
 
 .question{
