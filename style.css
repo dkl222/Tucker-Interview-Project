@@ -23,6 +23,7 @@ body {
   
 }
 
+/* Title */
 .title{
   /* Text */
   vertical-align:middle;
@@ -39,7 +40,15 @@ body {
   border-radius:40px;
 }
 
+/* Horizontal Line*/
+.horizon{
+  margin-left:auto;
+  margin-right:auto;
+  width:90%;
+  Max-width:800px;
+}
 
+/* Tucker Picture */
 .tuckerface{
     display: block;
     margin-left: auto;
@@ -49,12 +58,14 @@ body {
     border-radius:30px;
 }
 
+/* Basic Information Table */
 .info-table{
   margin-left:auto;
   margin-right:auto;
   border-spacing:4px 0.25em;
 }
 
+/* Label information */
 .basinfo{
   text-align: right;
   font-weight: bold;
@@ -63,6 +74,7 @@ body {
   border-radius:8px;
 }
 
+/* Tucker's information */
 .giveinfo{
   text-align:left;
   background-color:#4c6c50;
@@ -70,6 +82,7 @@ body {
   border-radius:8px;
 }
 
+/* Question Table */
 .question-table{
   display: block;
   margin-left:auto;
@@ -79,6 +92,7 @@ body {
   border-spacing:5px 0.75em;
 }
 
+/* Question Cells */
 .question{
   vertical-align:top;
   text-align:right;
@@ -88,6 +102,7 @@ body {
   border-radius:15px;
 }
 
+/* Answer Cells */
 .answer{
   vertical-align:top;
   text-align:left;
