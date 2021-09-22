@@ -63,6 +63,7 @@ body {
 
 .question-table{
   border-spacing:5px 0.75em;
+  max-width:80%;
 }
 
 .question{
