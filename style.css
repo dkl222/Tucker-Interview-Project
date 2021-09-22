@@ -28,6 +28,7 @@ body {
   /* Text */
   text-align:center;
   font-size:3em;
+  font-weight:bold;
   padding:10px 30px;
   /* Textbox */
   display: block;
