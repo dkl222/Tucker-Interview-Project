@@ -25,8 +25,10 @@ body {
 
 .title{
   /* Text */
+  vertical-align:middle;
   text-align:center;
   font-size:3em;
+  padding:5px 10px;
   /* Textbox */
   display: block;
   margin-left:auto;
